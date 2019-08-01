@@ -249,8 +249,8 @@ nav p span.highlight {
   color: #cb2627;
 }
 
-div.menu-wrapper {
-  margin-top:20px;
+div.menu-wrapper { 
+  margin-bottom: 30px;
 }
 
 div.menu-wrapper h3 {
@@ -345,7 +345,7 @@ div.menu-wrapper h3 {
     about-us Start
 --*/
 #about-us {
-  padding: 10px 0px 70px 0px;
+  padding: 10px 0px 50px 0px;
   background: #F6F6F6;
 }
 #about-us .block {
