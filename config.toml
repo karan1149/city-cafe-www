@@ -1,0 +1,174 @@
+baseURL = "TODO"
+languageCode = "en-us"
+title = "City Cafe on W 43rd | Deli, Restaurant, Pizzeria"
+theme="restaurant-hugo"
+summaryLength = "7"
+publishDir = "docs"
+
+
+
+
+
+# Global Settings
+[params]
+logo = "images/city-cafe-logo.png"
+description = "Official website for City Cafe NYC, located on W 43rd St. View our daily menu and place an order. Catering menu also available."
+
+
+[params.heroArea]
+enable = true
+[params.heroImg ] 
+url =  "images/photos/chicken-wrap.jpg" 
+
+
+#gallery item
+
+[params.gallery]
+enable = true
+title= "<span>Favorites</span> From the Menu"
+
+[[params.gallery.item]]
+img = "images/slider/1.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/2.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/3.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/4.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/5.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/6.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/7.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/8.jpg"
+
+
+[params.about]
+enable = true
+title= "<span>Full Menus</span>"
+bgImage = "images/cooker-img.png"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+
+
+
+
+#food Menu
+
+[params.foodMenu]
+enable = false
+title = "Our Easy <span>PRICE</span>"
+description= " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+subtitle = "FEATURED ON THE WEEK"
+
+[[params.foodMenu.item]]
+title="Pancakes n' Such Titas"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 125.00"
+
+[[params.foodMenu.item]]
+title="Caesar Salad"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 100.00"
+
+[[params.foodMenu.item]]
+title="Steak with a Garlic and Parsley Risotto"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 20.00"
+
+[[params.foodMenu.item]]
+title="Meat of Skewers"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 45.00"
+
+[[params.foodMenu.item]]
+title="Pancakes n' Such"
+description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+price = "$ 25.00"
+
+
+
+#subscription
+
+[params.subscription]
+enable = true
+title= "Order now at <span>(212) 764-0444</span>"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+#Mailchimp subscription configaration 
+formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+
+#Contact 
+
+[params.contact]
+enable = false
+title= "our <span> Contact Us </span>"
+subtitle= "SIGN UP FOR EMAIL ALERTS"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+
+#Footer 
+
+[params.footer]
+enable = false
+contactInfoTitle = "CONTACT <span>INFO</span> "
+blogTitle = "LATEST <span>BLOG POSTS</span>"
+galleryTitle = "PHOTO <span>STREAM</span>"
+socialTitle = "Follow <span>US</span>"
+
+[[params.footer.contactItem]]
+title="Telephone"
+icon = "fa fa-phone"
+content = "016742 323313"
+
+[[params.footer.contactItem]]
+title="Address"
+icon = "fa fa-map-marker"
+content = "2046 Blue Spruce Lane Laurel Canada"
+
+[[params.footer.contactItem]]
+title="E mail"
+icon = "fa fa-envelope"
+content = "rest@gmail.com - rest@mail.ru"
+
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://fb.com/themefisher"
+
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "dribbble"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://fb.com/themefisher"
+
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "© 2019 City Cafe"
+
+
+
+
+#blog 
+[params.blog]
+enable = false
+title = "Latest <span>From</span> the <span>Blog</span>"
