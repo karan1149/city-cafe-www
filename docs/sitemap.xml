@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>TODO/categories/</loc>
+    <loc>https://www.eatcitycafe.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>TODO/</loc>
+    <loc>https://www.eatcitycafe.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>TODO/tags/</loc>
+    <loc>https://www.eatcitycafe.com/tags/</loc>
     <priority>0</priority>
   </url>
   

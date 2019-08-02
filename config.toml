@@ -1,4 +1,4 @@
-baseURL = "TODO"
+baseURL = "https://www.eatcitycafe.com"
 languageCode = "en-us"
 title = "City Cafe on W 43rd | Deli, Restaurant, Pizzeria"
 theme="restaurant-hugo"
