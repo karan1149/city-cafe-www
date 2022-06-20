@@ -136,6 +136,7 @@ a.red-link {
   height: 300px;
   object-fit: cover;
 }
+
 #hero-area:before {
   content: "";
   position: absolute;
